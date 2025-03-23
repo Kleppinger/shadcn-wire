@@ -2,9 +2,9 @@
 
 namespace Kleppinger\ShadcnWire;
 
+use Kleppinger\ShadcnWire\Commands\ShadcnWireCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Kleppinger\ShadcnWire\Commands\ShadcnWireCommand;
 
 class ShadcnWireServiceProvider extends PackageServiceProvider
 {
