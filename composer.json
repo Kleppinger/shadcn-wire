@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "kleppinger/shadcn-wire",
+    "description": "This is my package shadcn-wire",
     "keywords": [
-        ":vendor_name",
+        "Elias Kleppinger",
         "laravel",
-        ":package_slug"
+        "shadcn-wire"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/kleppinger/shadcn-wire",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Elias Kleppinger",
+            "email": "e.kleppinger@proton.me",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Kleppinger\\ShadcnWire\\": "src/",
+            "Kleppinger\\ShadcnWire\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Kleppinger\\ShadcnWire\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Kleppinger\\ShadcnWire\\ShadcnWireServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "ShadcnWire": "Kleppinger\\ShadcnWire\\Facades\\ShadcnWire"
             }
         }
     },
